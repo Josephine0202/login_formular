@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/***** index.html *****/
+
+h1 {
+  font-family: "Inter", sans-serif;
+  padding-bottom: 15px;
+}
+
+form {
+  padding: 25px;
+  font-family: "Inter", sans-serif;
+  border: #871602 2px solid;
+  width: 50%;
+  margin: 10px;
+}
+
+button {
+  background-color: #871602;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  width: 15%;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+label {
+  display: block; /* Gør labels til block-elementer, så de placerer sig under hinanden */
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  margin-bottom: 15px;
+  padding: 8px;
+  width: 40%;
+}
+
+button {
+  background-color: #871602;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  width: 15%;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.container label[for="remember"] {
+  display: inline-block;
+  margin-left: 10px;
+}
